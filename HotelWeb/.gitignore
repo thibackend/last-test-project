@@ -1,0 +1,70 @@
+## Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Ignore build output
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.apphost
+
+## Ignore NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+PackageReferences.cache
+
+## Ignore logs and generated files
+*.log
+*.pid
+*.svclog
+
+## Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.sln.docstates
+
+## Ignore configuration files
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Ignore IDE-specific files
+.idea/
+*.csproj.user
+
+## Ignore published files
+publish/
+*.Publish.xml
+
+## Ignore Rider files
+.idea/
+*.sln.iml
+*.dotCover
+
+## Ignore Code Coverage results
+TestResults/
+Coverage/
+*.coverage
+*.coveragexml
+*.results
+*.resultset
+*.coverage.json
+
+## Ignore database artifacts
+*.mdf
+*.ldf
+*.db
+
+## Ignore JetBrains Rider and ReSharper
+_ReSharper*/
+*.DotSettings.user
+**/ReSharperSettings.xml
